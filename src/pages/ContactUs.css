@@ -1,0 +1,86 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 100px;
+} */
+
+.section-header {
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 0;
+  font: 300 60px;
+  color: #40208a;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.contact-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 110px;
+  margin-right: 110px;
+}
+
+.form-horizontal {
+  display: block;
+  padding: 40px;
+  background-color: #f9f3ff;
+  justify-content: center;
+  align-items: center;
+}
+
+input[id="firstname"],
+input[id="lastname"],
+input[id="email"],
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  height: 80px;
+  font-size: 18px;
+  background-color: #ffffff;
+  color: #8a97a0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.list-item {
+  line-height: 4;
+  align-content: center;
+}
+
+.contact-text {
+  font: 300 18px "Lato", sans-serif;
+  letter-spacing: 1.9px;
+  color: #bbb;
+}
+
+.company {
+  margin-left: 60px;
+  color: #40208a;
+  font: 300 28px "Lato", sans-serif;
+}
+
+.phone,
+.gmail,
+.copyright {
+  margin-left: 60px;
+}
+
+.contact-text a {
+  color: #000;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+  color: #40208a;
+  text-decoration: none;
+  align-items: center;
+}
+
+.send-button {
+  width: 85%;
+  align-items: center;
+}

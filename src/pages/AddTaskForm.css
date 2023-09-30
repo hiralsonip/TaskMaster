@@ -1,0 +1,84 @@
+.add-task-container,
+.form-data-container {
+  margin-left: 110px;
+  margin-right: 110px;
+}
+
+.add-task-form {
+  margin: 0 auto;
+  padding: 20px;
+  background: #f9f3ff;
+  border-radius: 8px;
+}
+
+.add-task-form h3 {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.form-Title,
+input[type="date"],
+textarea,
+select {
+  box-sizing: border-box; /* Add this line */
+  width: 100%;
+  padding: 8px;
+  height: 80px;
+  margin: 0;
+  font-size: 18px;
+  background-color: #ffffff;
+  color: #8a97a0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+select {
+  height: 8 0px;
+  font-size: medium;
+}
+
+button {
+  /* .type-btn { */
+  padding: 19px 39px 18px 39px;
+  color: #fff;
+  background-color: #764abc;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 40%;
+  border: 1px solid #20207e;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+  cursor: pointer;
+}
+
+.subtask {
+  margin-bottom: 30px;
+}
+
+.subtask h3 {
+  margin-top: 0;
+}
+
+.display-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.subtasks-section {
+  margin-top: 30px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
